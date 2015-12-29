@@ -14,7 +14,7 @@
         <div class="container">
             <div class="logo"><a href="#">treehouse</a></div>
 
-            <ul class="nav">
+            <ul class="nav-horizontal">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Blog</a></li>
@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <div id="portfolio">
+    <div id="portfolio" class="section">
         <div class="container">
             <h1>Creative digital <br/>solutions</h1>
 
@@ -33,7 +33,7 @@
         </div>
     </div>
 
-    <div id="services" class="box">
+    <div id="services" class="section padding">
         <div class="container">
             <h2 class="title">professional services</h2>
 
@@ -65,7 +65,7 @@
         </div>
     </div>
 
-    <div id="just-relax" class="box">
+    <div id="just-relax" class="section">
         <div class="left"></div>
         <div class="right">
 
@@ -74,7 +74,7 @@
 
             <h3 class="description">Proin iaculis purus consequat sem cure digni ssim. Donec <br/>
                 porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</h3>
-            <ul class="nav2 clearfix">
+            <ul class="nav-vertical clearfix">
                 <li><img class="checkmark-circle" src="images/checkmark2.png">
                     Initial Setup & Customizations
                 </li>
@@ -91,8 +91,8 @@
 
     </div>
 
-    <div id="latest">
-        <div class="container box">
+    <div id="latest" class="section padding">
+        <div class="container">
             <h2 class="title">latest project</h2>
 
             <p class="description">Proin iacutis purus consequat sem cure</p>
@@ -140,8 +140,8 @@
         </div>
     </div>
 
-    <div id="culture">
-        <div class="container box">
+    <div id="culture" class="section padding">
+        <div class="container">
             <h2 class="title">culture & Values</h2>
             <p class="description">Proin iacutis purus consequat sem cure</p>
 
@@ -168,29 +168,38 @@
                         posuere odio in tincidunt.</p>
                 </div>
             </div>
-
-
-
         </div>
     </div>
-    <div id="clients">
-        <div class="container box">
+    <div id="clients" class="section padding">
+        <div class="container">
             <h2 class="title">our awesome clients</h2>
             <p class="description">Proin iacutis purus consequat sem cure</p>
 
             <div class="client">
-                <div class="client-photo"></div>
-                <div class="client-speech"></div>
+                <div class="client-photo left"></div>
+                <div class="client-speech right">
+                    <p class="text-speech">“ Proin iaculis purus consequat sem cure  digni ssim
+                        donec porttitora entum suscipit aenean rhoncus. ” </p>
+                    <p class="author-speech">- Jamie Richardson, Founder of Cocoa Media</p>
+                </div>
+            </div>
+            <div class="client">
+                <div class="client-speech left">
+                    <p class="text-speech">“ Proin iaculis purus consequat sem cure  digni ssim
+                        donec porttitora entum suscipit aenean rhoncus. ” </p>
+                    <p class="author-speech">- Jamie Richardson, Founder of Cocoa Media</p>
+                </div>
+                <div class="client-photo2 right"></div>
             </div>
         </div>
     </div>
 
-    <div id="contact-us">
+    <div id="contact-us" class="section">
         <h1>ready to talk about your next project?</h1>
         <button class="btn">contact us</button>
     </div>
 
-    <div id="brand">
+    <div id="brand" class="section">
         <div class="container">
             <a href="#"><img src="images/envato.png"></a>
             <a href="#"><img src="images/wordPress.png"></a>
@@ -199,24 +208,24 @@
         </div>
     </div>
 
-    <div id="footer">
+    <div id="footer" class="section">
         <div class="container">
             <div class="footer-wrap clearfix">
                 <div class="footer-item">
                     <h5 class="title">Beautiful designs</h5>
                     <ul class="nav2 clearfix">
-                        <li class="punkt pad20">
-                            <div class="item location"></div>
+                        <li class="column pad20">
+                            <div class="row location"></div>
                             55 Main St.<br/>
                             Toronto, ON<br/>
                             M1H 3A5
                         </li>
-                        <li class="punkt">
-                            <div class="item phone"></div>
+                        <li class="column">
+                            <div class="row phone"></div>
                             (416) 555-5252
                         </li>
-                        <li class="punkt">
-                            <div class="item email"></div>
+                        <li class="column">
+                            <div class="row email"></div>
                             hello@treehouse.com
                         </li>
                     </ul>
@@ -224,24 +233,24 @@
                 <div class="footer-item">
                     <h5 class="title">Responsive web</h5>
                     <ul class="nav2 clearfix">
-                        <li class="punkt">
-                            <div class="item news"></div>
+                        <li class="column">
+                            <div class="row news"></div>
                             Made With Love In Toronto
                         </li>
-                        <li class="punkt">
-                            <div class="item picture"></div>
+                        <li class="column">
+                            <div class="row picture"></div>
                             Startup News & Emerging Tech
                         </li>
-                        <li class="punkt">
-                            <div class="item news"></div>
+                        <li class="column">
+                            <div class="row news"></div>
                             Bitcoin Will Soon Rule The World
                         </li>
-                        <li class="punkt">
-                            <div class="item news"></div>
+                        <li class="column">
+                            <div class="row news"></div>
                             Wearable Technology On The Rise
                         </li>
-                        <li class="punkt">
-                            <div class="item media"></div>
+                        <li class="column">
+                            <div class="row media"></div>
                             Learn Web Design In 30 Days!
                         </li>
                     </ul>
@@ -249,8 +258,8 @@
                 <div class="footer-item">
                     <h5 class="title">marketing tools</h5>
                     <ul class="nav2 clearfix">
-                        <li class="punkt2">
-                            <div class="item twitter"></div>
+                        <li class="column footer-col">
+                            <div class="row twitter"></div>
                             <p class="twitter-margin robotoslab">Confucius: Life is really simple,
                                 but we insist on making it
                                 complicated.</p>
@@ -259,8 +268,8 @@
 
                             <p class="twitter-margin proximaNova">8 mins ago</p>
                         </li>
-                        <li class="punkt2">
-                            <div class="item twitter"></div>
+                        <li class="column footer-col">
+                            <div class="row twitter"></div>
                             <p class="twitter-margin robotoslab">Grab the Free Treehouse web template at FreebiesXpress!</p>
 
                             <p class="twitter-margin robotoslab-bold">#freebies #templates</p>
@@ -273,7 +282,7 @@
         </div>
     </div>
 
-    <div id="copyright">
+    <div id="copyright" class="section">
         <div class="container">
             <p class="copy-text"> © Copyright 2014 FreebiesXpress.com</p>
 
