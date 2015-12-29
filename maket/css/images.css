@@ -1,0 +1,41 @@
+.location {
+    background: url("../images/footer-imgs/location.png") no-repeat;
+}
+.phone {
+    background: url("../images/footer-imgs/phone-potrait.png") no-repeat;
+}
+.email {
+    background: url("../images/footer-imgs/email.png") no-repeat;
+}
+.news {
+    background: url("../images/footer-imgs/news1.png") no-repeat;
+}
+.media {
+    background: url("../images/footer-imgs/media-Icon.png") no-repeat;
+}
+.picture {
+    background: url("../images/footer-imgs/photo-Icon.png") no-repeat;
+}
+.twitter {
+    background: url("../images/footer-imgs/twitterIcon.png") no-repeat;
+}
+
+.service-design {
+    background: url("../images/icon-heart.png") no-repeat center top;
+}
+.service-response {
+    background: url("../images/icon-mobile.png") no-repeat center top;
+}
+.service-marketing {
+    background: url("../images/icon-graph.png") no-repeat center top;
+}
+
+.culture-music {
+    background: url("../images/culture-values/icon-music.png") no-repeat center top;
+}
+.culture-graphic {
+    background: url("../images/culture-values/icon-graphic.png") no-repeat center top;
+}
+.culture-star {
+    background: url("../images/culture-values/icon-star.png") no-repeat center top;
+}

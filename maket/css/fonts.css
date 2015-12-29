@@ -1,0 +1,29 @@
+.robotoslab {
+    font: 16px/16px RobotoSlab,  sans-serif;
+}
+.robotoslab-bold {
+    font: bold 16px/16px RobotoSlab,  sans-serif;
+}
+
+.proximaNova {
+    font: bold 12px/12px ProximaNova,  sans-serif;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../font/Montserrat/Montserrat-Regular.otf");
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url("../font/Montserrat/Montserrat-Bold.otf");
+}
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url("../font/RobotoSlab/RobotoSlab-Regular.ttf");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url("../font/proximanovacond-regular.otf");
+}

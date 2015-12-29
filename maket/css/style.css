@@ -1,0 +1,525 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*//////////////////*/
+
+.container {
+    position: relative;
+    /*max-width: 940px;*/
+    margin: 0 auto;
+    width: 80%;
+}
+
+#header {
+    padding: 50px 0;
+    height: 15px;
+}
+
+.logo {
+    float: left;
+    margin-top: -8px;
+}
+
+.logo a {
+    text-transform: uppercase;
+    text-align: right;
+    display: inline-block;
+    background: url("../images/leaf3.png") no-repeat;
+    color: #555555;
+    font: 18px/18px Montserrat, sans-serif;
+    text-decoration: none;
+    width: 142px;
+    height: 35px;
+    padding-top: 6px;
+}
+
+.logo-style {
+    color: #7cc576;
+}
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    float: left;
+    margin-right: 35px;
+}
+
+.nav li:last-child {
+    margin-right: 0
+}
+
+.nav a {
+    text-transform: uppercase;
+    color: #222;
+    font: 14px/14px Montserrat, sans-serif;
+    text-decoration: none;
+}
+
+#portfolio {
+    text-align: center;
+    left: 25px;
+    width: 100%;
+    height: 530px;
+    background: url(../images/Transparency-Layer2.jpg) no-repeat center;
+    color: #fff;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#portfolio h1 {
+    padding-top: 120px;
+    font: 60px/60px Montserrat, sans-serif;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#portfolio h3 {
+    font: 20px/20px RobotoSlab, sans-serif;
+    margin-bottom: 60px;
+}
+
+.btn {
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    padding: 20px 0;
+    cursor: pointer;
+    font: 16px/16px Montserrat, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    background: #7cc576;
+    -webkit-border-radius: 50px;
+}
+
+.btn:hover {
+    background: #ffffff;
+    color: #000;
+}
+
+#services {
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 530px;
+    text-align: center;
+}
+
+.box {
+    padding-top: 100px;
+}
+
+h2.title {
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font: bold 30px/30px Montserrat-Bold, sans-serif;
+    color: #222;
+}
+
+h5.title {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #222222;
+    font: bold 18px/18px Montserrat-Bold, sans-serif;
+}
+
+p.description {
+    text-align: center;
+    margin-bottom: 80px;
+    font: bold 20px/20px RobotoSlab, sans-serif;
+    height: 18px;
+    color: #ccc;
+}
+
+p.service-description {
+    font: bold 14px/14px RobotoSlab, sans-serif;
+    height: 14px;
+    color: #777777;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.services-item {
+    float: left;
+    width: 33.33%;
+    padding: 90px 0;
+
+    color: #696969;
+}
+
+#just-relax {
+    padding: 0;
+    margin: 0;
+
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 616px;
+    color: #fff;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#just-relax .left {
+    background: url(../images/relax-left.jpg) no-repeat;
+    background-origin: content-box;
+    float: left;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 30%;
+    height: 616px;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#just-relax .right {
+    float: left;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    background: url(../images/relax-right.jpg) no-repeat;
+    background-origin: content-box;
+    background-size: 100% 100%;
+    width: 70%;
+    height: 616px;
+}
+
+#just-relax h1 {
+    font: 40px/40px Montserrat-Bold, sans-serif;
+    margin: 100px 80px 45px;
+    text-transform: uppercase;
+}
+
+h3.description {
+    margin-left: 80px;
+    font: 16px/16px RobotoSlab, sans-serif;
+    color: #cccccc;
+    margin-bottom: 20px;
+    line-height: 32px;
+}
+
+#just-relax .btn {
+    margin: 50px 80px;
+}
+
+#just-relax .nav2 {
+    color: #cccccc;
+    margin-left: 80px;
+}
+
+#just-relax .nav2 li {
+    margin-bottom: 5px;
+    font: 16px/16px RobotoSlab, sans-serif;
+    color: #cccccc;
+}
+
+.checkmark-circle {
+    vertical-align: middle;
+}
+
+.checkmark-circle2 {
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+
+#latest {
+    width: 100%;
+    height: 824px;
+}
+
+.latest-body {
+    background: url(../images/isometric-iPad.jpg) no-repeat center;
+    height: 570px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#latest .subtitle {
+    font: 16px/16px RobotoSlab, sans-serif;
+    color: #777777;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+.latest-item-container {
+    height: 90px;
+}
+
+.latest-item-image {
+    float: left;
+    height: 90px;
+}
+.latest-item-image img {
+    display: block
+}
+.item-content {
+    margin-left: 80px
+}
+
+
+.text {
+    vertical-align:middle;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #7cc576;
+    font: bold 16px/16px Montserrat-Bold,  sans-serif;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#culture {
+    width: 100%;
+    height: 560px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#culture h5 {
+    padding-top: 25px;
+}
+
+#clients {
+    width: 100%;
+    height: 810px;
+    vertical-align: middle;
+}
+
+#clients .client {
+    height: 220px;
+}
+
+#clients .client-photo {
+    height: 220px;
+    width: 220px;
+    float: left;
+    margin-right: 25px;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+}
+
+#clients .left-triangle {
+
+}
+
+#clients .client-speech {
+    margin-top: 30px;
+    height: 170px;
+    width: 100%;
+    max-width: 645px;
+    float: left;
+
+    background-color: #f9f9f9;
+}
+
+
+#contact-us {
+    width: 100%;
+    height: 250px;
+    background-color: #7cc576;
+    text-align: center;
+}
+
+#contact-us h1 {
+    font: 40px/40px Montserrat-Bold, sans-serif;
+    padding: 65px 0 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#contact-us .btn {
+    border: 3px solid #ffffff;
+    -webkit-border-radius: 15px;
+    font: 18px/18px Montserrat-Bold, sans-serif;
+}
+
+#contact-us .btn:hover {
+    color: #7cc576;
+}
+
+
+#brand {
+    width: 100%;
+    height: 165px;
+
+    text-align: center;
+}
+#brand a {
+    margin: 60px 40px 60px 0;
+    display: inline-block;
+    }
+#brand a:last-child {
+    margin-right: 0;
+}
+
+#brand img {
+    vertical-align: middle;
+}
+
+#footer {
+    width: 100%;
+    height: 365px;
+    background-color: #222222;
+}
+
+.footer-item {
+    float: left;
+    width: 33.33%;
+    padding-top: 60px;
+    color: #ffffff;
+    font: 18px/18px Montserrat-Bold, sans-serif;
+    text-transform: uppercase;
+}
+
+#footer .title {
+    padding-bottom: 25px;
+    color: #ffffff;
+    font: 18px/18px Montserrat-Bold, sans-serif;
+}
+
+#footer .item {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.twitter-margin {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.punkt {
+    font: 16px/16px RobotoSlab, sans-serif;
+    height: 40px;
+    text-transform: lowercase;
+}
+.punkt2 {
+    font: 16px/16px RobotoSlab, sans-serif;
+    height: 120px;
+    text-transform: lowercase;
+}
+
+.pad20 {
+    padding-bottom: 20px;
+}
+
+#copyright {
+    font: 14px/14px RobotoSlab, sans-serif;
+    padding: 40px 0;
+    width: 100%;
+    height: 100px;
+}
+
+.copy-text {
+    position: absolute;
+    font: 14px/14px Montserrat, sans-serif;
+    color: #555555;
+    padding-top: 10px;
+}
+
+.social {
+    /*position: absolute;*/
+    /*margin-top: 30px;*/
+    text-align: center;
+}
+
+.social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+    background: #222222 url("../images/sprite.png") no-repeat;
+
+    -webkit-border-radius: 50%;
+}
+
+.social a.ic-tw {
+    background-position: 0 0;
+}
+.social a.ic-tw:hover {
+    background: #00aced url("../images/sprite.png") 0 0;
+}
+
+.social a.ic-fb {
+    background-position: -40px 0;
+}
+.social a.ic-fb:hover {
+    background: #3b5998 url("../images/sprite.png") -40px 0;
+}
+
+.social a.ic-pn {
+    background-position: -80px 0;
+}
+.social a.ic-pn:hover {
+    background: #cb2028 url("../images/sprite.png") -80px 0;
+}
+
+.social a.ic-gl {
+    background-position: -120px 0;
+}
+.social a.ic-gl:hover {
+    background: #da2713 url("../images/sprite.png") -120px 0;
+}
